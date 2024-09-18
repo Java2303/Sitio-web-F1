@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Piloto - Fórmula 1 2024</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://seeklogo.com/images/F/formula-1-logo-F7355AA33A-seeklogo.com.png" alt="Logo Fórmula 1" class="logo" />
+        <h1>Crear Tu Propio Piloto</h1>
+        <nav>
+            <ul>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="carreras.html">Carreras</a></li>
+                    <li><a href="pilotos.html">Pilotos</a></li>
+                    <li><a href="historia.html">Historia</a></li>
+                    <li><a href="crear-piloto.html">Crear Piloto</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="carrito.html">Carrito</a></li>
+                </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Formulario para Crear un Piloto</h2>
+        <form id="pilotForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" required>
+
+            <label for="nacionalidad">Nacionalidad:</label>
+            <input type="text" id="nacionalidad" required>
+
+            <label for="equipo">Equipo Favorito:</label>
+            <input type="text" id="equipo" required>
+
+            <label for="gp">GP Favorito:</label>
+            <input type="text" id="gp" required>
+
+            <button class="btn-agregar" type="submit">Agregar Piloto</button>
+        </form>
+
+        <h3>Pilotos Agregados</h3>
+        <ul id="pilotsList"></ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fórmula 1. Todos los derechos reservados.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
